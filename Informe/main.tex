@@ -1,0 +1,48 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}		% Configuro la codificación
+\input{config.tex}				% Archivo con los comandos globales como Título y autores
+\input{preamble.tex}
+
+% Defino el path de los includegraphics
+\graphicspath{{./Figuras/}{./imagenes/}}		% Directorio que contiene los graficos
+
+% Defino el path para los input de .tex y de .eps
+\makeatletter
+\def\input@path{{./Figuras/}{./Secciones/}{./Cover_page/}{./imagenes}{./Tikz}}
+\makeatother
+
+% Defino el path del listings
+\ifListings
+%% Cambiar el nombre de la carpeta si se utilizan Listings
+	\lstinputpath{../Secciones}
+\fi
+
+
+\begin{document}
+		% Carátula (formal o simple,_formal o _simple respectivamente),
+		% Resumen e Índice (si es necesario configurar en config.tex) del informe
+		\input{cover_formal.tex}
+	\setcounter{page}{1}
+	\section{Desarrollo}
+		\input{desarrollo.tex}
+		\subsection{Método de momentos}
+			\input{1_momentos.tex}
+		\subsection{Geometría a simular}
+			\input{2_geometria.tex}
+		\subsection{Diagramas de radiación}
+			\input{3_diagramas.tex}
+		\subsection{Gráfico de corriente}
+			\input{4_corriente.tex}
+		\subsection{Resistencia de radiación}
+			\input{5_resistencia.tex}
+		\subsection{Máxima eficiencia de la estructura}
+			\input{6_eficiencia.tex}
+		\subsection{Plano de tierra perfecto}
+			\input{7_tierra.tex}		
+	\pagebreak					
+	\section{Conclusiones}
+		\input{conclusiones.tex}
+		
+	%\appendix
+\end{document}
