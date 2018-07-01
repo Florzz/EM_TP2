@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.28)  28 JUN 2018 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.28)  1 JUL 2018 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1530,6 +1530,10 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 95.
 ) (./main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
+
+
+LaTeX Warning: Label `fig.radiacion_320M' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1850,61 +1854,690 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 31.
 
-(./Secciones/2_geometria.tex)
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 33.
- (./Secciones/3_diagramas.tex)
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 35.
+(./Secciones/2_geometria.tex (./imagenes/config6.tex
+Package epstopdf Info: Source file: <./imagenes/config6.eps>
+(epstopdf)                    date: 2018-06-30 11:51:36
+(epstopdf)                    size: 10923 bytes
+(epstopdf)             Output file: <./imagenes/config6-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-07-01 15:38:34
+(epstopdf)                    size: 3234 bytes
+(epstopdf)             Command: <repstopdf --outfile=./imagenes/config6-eps-con
+verted-to.pdf ./imagenes/config6.eps>
+(epstopdf)             \includegraphics on input line 22.
+Package epstopdf Info: Output file is already uptodate.
+<./imagenes/config6-eps-converted-to.pdf, id=74, 507.8975pt x 83.31125pt>
+File: ./imagenes/config6-eps-converted-to.pdf Graphic file (type pdf)
+<use ./imagenes/config6-eps-converted-to.pdf>
+Package pdftex.def Info: ./imagenes/config6-eps-converted-to.pdf  used on input
+ line 22.
+(pdftex.def)             Requested size: 507.89627pt x 83.31104pt.
 
-(./Secciones/4_corriente.tex)
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 37.
- (./Secciones/5_resistencia.tex)
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 39.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 39.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 39.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 39.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 39.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 39.
+Overfull \hbox (8.02841pt too wide) in paragraph at lines 22--22
+[][] 
+ []
 
-(./Secciones/6_eficiencia.tex)
+) (./imagenes/config6xy.tex
+Package epstopdf Info: Source file: <./imagenes/config6xy.eps>
+(epstopdf)                    date: 2018-06-30 12:22:55
+(epstopdf)                    size: 10978 bytes
+(epstopdf)             Output file: <./imagenes/config6xy-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2018-07-01 15:38:34
+(epstopdf)                    size: 2900 bytes
+(epstopdf)             Command: <repstopdf --outfile=./imagenes/config6xy-eps-c
+onverted-to.pdf ./imagenes/config6xy.eps>
+(epstopdf)             \includegraphics on input line 26.
+Package epstopdf Info: Output file is already uptodate.
+<./imagenes/config6xy-eps-converted-to.pdf, id=75, 310.15875pt x 222.8325pt>
+File: ./imagenes/config6xy-eps-converted-to.pdf Graphic file (type pdf)
+<use ./imagenes/config6xy-eps-converted-to.pdf>
+Package pdftex.def Info: ./imagenes/config6xy-eps-converted-to.pdf  used on inp
+ut line 26.
+(pdftex.def)             Requested size: 310.15799pt x 222.83195pt.
+
+Overfull \hbox (7.52737pt too wide) in paragraph at lines 26--26
+[][] 
+ []
+
+)
+Overfull \hbox (17.11137pt too wide) in paragraph at lines 12--13
+[][] 
+ []
+
+<imagenes/2_geometria.png, id=76, 462.22687pt x 352.31625pt>
+File: imagenes/2_geometria.png Graphic file (type png)
+<use imagenes/2_geometria.png>
+Package pdftex.def Info: imagenes/2_geometria.png  used on input line 18.
+(pdftex.def)             Requested size: 184.88747pt x 140.924pt.
+
+Overfull \hbox (12.22223pt too wide) in paragraph at lines 11--21
+[]$[]$  $[]$ 
+ []
+
+)
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 33.
+ (./Secciones/3_diagramas.tex
+<imagenes/2D_80MHz.png, id=77, 505.13719pt x 505.89pt>
+File: imagenes/2D_80MHz.png Graphic file (type png)
+<use imagenes/2D_80MHz.png>
+Package pdftex.def Info: imagenes/2D_80MHz.png  used on input line 3.
+(pdftex.def)             Requested size: 217.20476pt x 217.52844pt.
+
+Overfull \hbox (3.80908pt too wide) in paragraph at lines 3--4
+[][] 
+ []
+
+<imagenes/3D_80MHz.png, id=79, 525.46312pt x 466.74374pt>
+File: imagenes/3D_80MHz.png Graphic file (type png)
+<use imagenes/3D_80MHz.png>
+Package pdftex.def Info: imagenes/3D_80MHz.png  used on input line 7.
+(pdftex.def)             Requested size: 225.94473pt x 200.69589pt.
+
+Overfull \hbox (12.54906pt too wide) in paragraph at lines 7--8
+[][] 
+ []
+
+
+Overfull \hbox (12.22223pt too wide) in paragraph at lines 2--9
+[]$[]$  $[]$ 
+ []
+
+<./Figuras/header_fiuba.png, id=80, 390.45876pt x 130.4875pt>
+File: ./Figuras/header_fiuba.png Graphic file (type png)
+<use ./Figuras/header_fiuba.png>
+Package pdftex.def Info: ./Figuras/header_fiuba.png  used on input line 12.
+(pdftex.def)             Requested size: 58.56628pt x 19.57227pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 23.1723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 12.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 12.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 12.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 12.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 12.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 12.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 12.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 12.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 12.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 12.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 12.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 12.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 
+      [1 <./Figuras/header_fiuba.png> <./imagenes/config6-eps-converted-to.pdf>
+ <./imagenes/config6xy-eps-converted-to.pdf> <./imagenes/2_geometria.png>]
+<imagenes/2D_160MHz.png, id=100, 505.13719pt x 502.87875pt>
+File: imagenes/2D_160MHz.png Graphic file (type png)
+<use imagenes/2D_160MHz.png>
+Package pdftex.def Info: imagenes/2D_160MHz.png  used on input line 16.
+(pdftex.def)             Requested size: 217.20476pt x 216.23364pt.
+
+Overfull \hbox (3.80908pt too wide) in paragraph at lines 16--17
+[][] 
+ []
+
+<imagenes/3D_160MHz.png, id=101, 514.92375pt x 468.24937pt>
+File: imagenes/3D_160MHz.png Graphic file (type png)
+<use imagenes/3D_160MHz.png>
+Package pdftex.def Info: imagenes/3D_160MHz.png  used on input line 20.
+(pdftex.def)             Requested size: 221.41289pt x 201.34329pt.
+
+Overfull \hbox (8.01721pt too wide) in paragraph at lines 20--21
+[][] 
+ []
+
+
+Overfull \hbox (12.22223pt too wide) in paragraph at lines 15--22
+[]$[]$  $[]$ 
+ []
+
+<imagenes/2D_240MHz.png, id=102, 502.87875pt x 505.13719pt>
+File: imagenes/2D_240MHz.png Graphic file (type png)
+<use imagenes/2D_240MHz.png>
+Package pdftex.def Info: imagenes/2D_240MHz.png  used on input line 29.
+(pdftex.def)             Requested size: 216.23364pt x 217.20476pt.
+
+Overfull \hbox (2.83797pt too wide) in paragraph at lines 29--30
+[][] 
+ []
+
+<imagenes/3D_240MHz.png, id=103, 486.31688pt x 454.69875pt>
+File: imagenes/3D_240MHz.png Graphic file (type png)
+<use imagenes/3D_240MHz.png>
+Package pdftex.def Info: imagenes/3D_240MHz.png  used on input line 33.
+(pdftex.def)             Requested size: 209.11218pt x 195.51665pt.
+
+Overfull \hbox (12.22223pt too wide) in paragraph at lines 28--35
+[]$[]$  $[]$ 
+ []
+
+File: ./Figuras/header_fiuba.png Graphic file (type png)
+<use ./Figuras/header_fiuba.png>
+Package pdftex.def Info: ./Figuras/header_fiuba.png  used on input line 38.
+(pdftex.def)             Requested size: 58.56628pt x 19.57227pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 23.1723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 38.
+[2 <./imagenes/2D_80MHz.png> <./imagenes/3D_80MHz.png> <./imagenes/2D_160MHz.pn
+g> <./imagenes/3D_160MHz.png>]
+<imagenes/2D_320MHz.png, id=114, 505.89pt x 504.38437pt>
+File: imagenes/2D_320MHz.png Graphic file (type png)
+<use imagenes/2D_320MHz.png>
+Package pdftex.def Info: imagenes/2D_320MHz.png  used on input line 42.
+(pdftex.def)             Requested size: 217.52844pt x 216.88104pt.
+
+Overfull \hbox (4.13277pt too wide) in paragraph at lines 42--43
+[][] 
+ []
+
+<imagenes/3D_320MHz.png, id=115, 597.73312pt x 459.21562pt>
+File: imagenes/3D_320MHz.png Graphic file (type png)
+<use imagenes/3D_320MHz.png>
+Package pdftex.def Info: imagenes/3D_320MHz.png  used on input line 46.
+(pdftex.def)             Requested size: 257.02023pt x 197.45886pt.
+
+Overfull \hbox (43.62456pt too wide) in paragraph at lines 46--47
+[][] 
+ []
+
+
+Overfull \hbox (12.22223pt too wide) in paragraph at lines 41--48
+[]$[]$  $[]$ 
+ []
+
+<imagenes/2D_400MHz.png, id=116, 506.6428pt x 503.63156pt>
+File: imagenes/2D_400MHz.png Graphic file (type png)
+<use imagenes/2D_400MHz.png>
+Package pdftex.def Info: imagenes/2D_400MHz.png  used on input line 55.
+(pdftex.def)             Requested size: 217.85216pt x 216.55734pt.
+
+Overfull \hbox (4.45648pt too wide) in paragraph at lines 55--56
+[][] 
+ []
+
+<imagenes/3D_400MHz.png, id=117, 469.755pt x 462.22687pt>
+File: imagenes/3D_400MHz.png Graphic file (type png)
+<use imagenes/3D_400MHz.png>
+Package pdftex.def Info: imagenes/3D_400MHz.png  used on input line 59.
+(pdftex.def)             Requested size: 201.9907pt x 198.75368pt.
+
+Overfull \hbox (12.22223pt too wide) in paragraph at lines 54--61
+[]$[]$  $[]$ 
+ []
+
+File: ./Figuras/header_fiuba.png Graphic file (type png)
+<use ./Figuras/header_fiuba.png>
+Package pdftex.def Info: ./Figuras/header_fiuba.png  used on input line 64.
+(pdftex.def)             Requested size: 58.56628pt x 19.57227pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 23.1723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 64.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 64.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 64.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 64.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 64.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 64.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 64.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 64.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 64.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 64.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 64.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 64.
+[3 <./imagenes/2D_240MHz.png> <./imagenes/3D_240MHz.png> <./imagenes/2D_320MHz.
+png> <./imagenes/3D_320MHz.png>]
+<imagenes/2D_480MHz.png, id=128, 504.38437pt x 506.6428pt>
+File: imagenes/2D_480MHz.png Graphic file (type png)
+<use imagenes/2D_480MHz.png>
+Package pdftex.def Info: imagenes/2D_480MHz.png  used on input line 69.
+(pdftex.def)             Requested size: 216.88104pt x 217.85216pt.
+
+Overfull \hbox (3.48537pt too wide) in paragraph at lines 69--70
+[][] 
+ []
+
+<imagenes/3D_480MHz.png, id=129, 534.49687pt x 462.22687pt>
+File: imagenes/3D_480MHz.png Graphic file (type png)
+<use imagenes/3D_480MHz.png>
+Package pdftex.def Info: imagenes/3D_480MHz.png  used on input line 73.
+(pdftex.def)             Requested size: 229.82916pt x 198.75368pt.
+
+Overfull \hbox (16.43349pt too wide) in paragraph at lines 73--74
+[][] 
+ []
+
+
+Overfull \hbox (12.22223pt too wide) in paragraph at lines 68--75
+[]$[]$  $[]$ 
+ []
+
+)
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 35.
+ (./Secciones/4_corriente.tex
+Package epstopdf Info: Source file: <imagenes/i_real_80.eps>
+(epstopdf)                    date: 2018-07-01 15:10:00
+(epstopdf)                    size: 23619 bytes
+(epstopdf)             Output file: <imagenes/i_real_80-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-07-01 16:15:55
+(epstopdf)                    size: 8470 bytes
+(epstopdf)             Command: <repstopdf --outfile=imagenes/i_real_80-eps-con
+verted-to.pdf imagenes/i_real_80.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
+<imagenes/i_real_80-eps-converted-to.pdf, id=130, 363.3575pt x 293.095pt>
+File: imagenes/i_real_80-eps-converted-to.pdf Graphic file (type pdf)
+<use imagenes/i_real_80-eps-converted-to.pdf>
+Package pdftex.def Info: imagenes/i_real_80-eps-converted-to.pdf  used on input
+ line 19.
+(pdftex.def)             Requested size: 218.01617pt x 175.85834pt.
+
+Overfull \hbox (4.6205pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+Package epstopdf Info: Source file: <imagenes/i_imag_80.eps>
+(epstopdf)                    date: 2018-07-01 15:10:00
+(epstopdf)                    size: 23379 bytes
+(epstopdf)             Output file: <imagenes/i_imag_80-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-07-01 16:17:50
+(epstopdf)                    size: 8773 bytes
+(epstopdf)             Command: <repstopdf --outfile=imagenes/i_imag_80-eps-con
+verted-to.pdf imagenes/i_imag_80.eps>
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
+<imagenes/i_imag_80-eps-converted-to.pdf, id=131, 366.36874pt x 293.095pt>
+File: imagenes/i_imag_80-eps-converted-to.pdf Graphic file (type pdf)
+<use imagenes/i_imag_80-eps-converted-to.pdf>
+Package pdftex.def Info: imagenes/i_imag_80-eps-converted-to.pdf  used on input
+ line 24.
+(pdftex.def)             Requested size: 219.82294pt x 175.85834pt.
+
+Overfull \hbox (6.42726pt too wide) in paragraph at lines 24--25
+[][] 
+ []
+
+Package epstopdf Info: Source file: <imagenes/i_mag_80.eps>
+(epstopdf)                    date: 2018-07-01 15:10:01
+(epstopdf)                    size: 24202 bytes
+(epstopdf)             Output file: <imagenes/i_mag_80-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-07-01 16:19:57
+(epstopdf)                    size: 8803 bytes
+(epstopdf)             Command: <repstopdf --outfile=imagenes/i_mag_80-eps-conv
+erted-to.pdf imagenes/i_mag_80.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
+<imagenes/i_mag_80-eps-converted-to.pdf, id=132, 363.3575pt x 293.095pt>
+File: imagenes/i_mag_80-eps-converted-to.pdf Graphic file (type pdf)
+<use imagenes/i_mag_80-eps-converted-to.pdf>
+Package pdftex.def Info: imagenes/i_mag_80-eps-converted-to.pdf  used on input 
+line 29.
+(pdftex.def)             Requested size: 218.01617pt x 175.85834pt.
+
+Overfull \hbox (4.6205pt too wide) in paragraph at lines 29--30
+[][] 
+ []
+
+Package epstopdf Info: Source file: <imagenes/i_fase_80.eps>
+(epstopdf)                    date: 2018-07-01 15:10:01
+(epstopdf)                    size: 22037 bytes
+(epstopdf)             Output file: <imagenes/i_fase_80-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-07-01 16:19:58
+(epstopdf)                    size: 8466 bytes
+(epstopdf)             Command: <repstopdf --outfile=imagenes/i_fase_80-eps-con
+verted-to.pdf imagenes/i_fase_80.eps>
+(epstopdf)             \includegraphics on input line 34.
+Package epstopdf Info: Output file is already uptodate.
+<imagenes/i_fase_80-eps-converted-to.pdf, id=133, 366.36874pt x 293.095pt>
+File: imagenes/i_fase_80-eps-converted-to.pdf Graphic file (type pdf)
+<use imagenes/i_fase_80-eps-converted-to.pdf>
+Package pdftex.def Info: imagenes/i_fase_80-eps-converted-to.pdf  used on input
+ line 34.
+(pdftex.def)             Requested size: 219.82294pt x 175.85834pt.
+
+Overfull \hbox (6.42726pt too wide) in paragraph at lines 34--35
+[][] 
+ []
+
+
+Overfull \hbox (12.22223pt too wide) in paragraph at lines 18--37
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (12.22223pt too wide) in paragraph at lines 18--37
+[]$  $[]$ 
+ []
+
+File: ./Figuras/header_fiuba.png Graphic file (type png)
+<use ./Figuras/header_fiuba.png>
+Package pdftex.def Info: ./Figuras/header_fiuba.png  used on input line 39.
+(pdftex.def)             Requested size: 58.56628pt x 19.57227pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 23.1723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 39.
+[4 <./imagenes/2D_400MHz.png> <./imagenes/3D_400MHz.png> <./imagenes/2D_480MHz.
+png> <./imagenes/3D_480MHz.png>]
+Package epstopdf Info: Source file: <imagenes/i_real_480.eps>
+(epstopdf)                    date: 2018-07-01 15:10:02
+(epstopdf)                    size: 34326 bytes
+(epstopdf)             Output file: <imagenes/i_real_480-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-07-01 16:21:58
+(epstopdf)                    size: 12814 bytes
+(epstopdf)             Command: <repstopdf --outfile=imagenes/i_real_480-eps-co
+nverted-to.pdf imagenes/i_real_480.eps>
+(epstopdf)             \includegraphics on input line 43.
+Package epstopdf Info: Output file is already uptodate.
+<imagenes/i_real_480-eps-converted-to.pdf, id=144, 366.36874pt x 293.095pt>
+File: imagenes/i_real_480-eps-converted-to.pdf Graphic file (type pdf)
+<use imagenes/i_real_480-eps-converted-to.pdf>
+Package pdftex.def Info: imagenes/i_real_480-eps-converted-to.pdf  used on inpu
+t line 43.
+(pdftex.def)             Requested size: 219.82294pt x 175.85834pt.
+
+Overfull \hbox (6.42726pt too wide) in paragraph at lines 43--44
+[][] 
+ []
+
+Package epstopdf Info: Source file: <imagenes/i_imag_480.eps>
+(epstopdf)                    date: 2018-07-01 15:10:02
+(epstopdf)                    size: 34889 bytes
+(epstopdf)             Output file: <imagenes/i_imag_480-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-07-01 16:21:59
+(epstopdf)                    size: 13090 bytes
+(epstopdf)             Command: <repstopdf --outfile=imagenes/i_imag_480-eps-co
+nverted-to.pdf imagenes/i_imag_480.eps>
+(epstopdf)             \includegraphics on input line 48.
+Package epstopdf Info: Output file is already uptodate.
+<imagenes/i_imag_480-eps-converted-to.pdf, id=145, 366.36874pt x 293.095pt>
+File: imagenes/i_imag_480-eps-converted-to.pdf Graphic file (type pdf)
+<use imagenes/i_imag_480-eps-converted-to.pdf>
+Package pdftex.def Info: imagenes/i_imag_480-eps-converted-to.pdf  used on inpu
+t line 48.
+(pdftex.def)             Requested size: 219.82294pt x 175.85834pt.
+
+Overfull \hbox (6.42726pt too wide) in paragraph at lines 48--49
+[][] 
+ []
+
+Package epstopdf Info: Source file: <imagenes/i_mag_480.eps>
+(epstopdf)                    date: 2018-07-01 15:10:03
+(epstopdf)                    size: 35433 bytes
+(epstopdf)             Output file: <imagenes/i_mag_480-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-07-01 16:21:59
+(epstopdf)                    size: 13349 bytes
+(epstopdf)             Command: <repstopdf --outfile=imagenes/i_mag_480-eps-con
+verted-to.pdf imagenes/i_mag_480.eps>
+(epstopdf)             \includegraphics on input line 53.
+Package epstopdf Info: Output file is already uptodate.
+<imagenes/i_mag_480-eps-converted-to.pdf, id=146, 363.3575pt x 293.095pt>
+File: imagenes/i_mag_480-eps-converted-to.pdf Graphic file (type pdf)
+<use imagenes/i_mag_480-eps-converted-to.pdf>
+Package pdftex.def Info: imagenes/i_mag_480-eps-converted-to.pdf  used on input
+ line 53.
+(pdftex.def)             Requested size: 218.01617pt x 175.85834pt.
+
+Overfull \hbox (4.6205pt too wide) in paragraph at lines 53--54
+[][] 
+ []
+
+Package epstopdf Info: Source file: <imagenes/i_fase_480.eps>
+(epstopdf)                    date: 2018-07-01 15:10:03
+(epstopdf)                    size: 35410 bytes
+(epstopdf)             Output file: <imagenes/i_fase_480-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-07-01 16:21:59
+(epstopdf)                    size: 13053 bytes
+(epstopdf)             Command: <repstopdf --outfile=imagenes/i_fase_480-eps-co
+nverted-to.pdf imagenes/i_fase_480.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+<imagenes/i_fase_480-eps-converted-to.pdf, id=147, 366.36874pt x 293.095pt>
+File: imagenes/i_fase_480-eps-converted-to.pdf Graphic file (type pdf)
+<use imagenes/i_fase_480-eps-converted-to.pdf>
+Package pdftex.def Info: imagenes/i_fase_480-eps-converted-to.pdf  used on inpu
+t line 58.
+(pdftex.def)             Requested size: 219.82294pt x 175.85834pt.
+
+Overfull \hbox (6.42726pt too wide) in paragraph at lines 58--59
+[][] 
+ []
+
+
+Overfull \hbox (12.22223pt too wide) in paragraph at lines 42--61
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (12.22223pt too wide) in paragraph at lines 42--61
+[]$  $[]$ 
+ []
+
+File: ./Figuras/header_fiuba.png Graphic file (type png)
+<use ./Figuras/header_fiuba.png>
+Package pdftex.def Info: ./Figuras/header_fiuba.png  used on input line 63.
+(pdftex.def)             Requested size: 58.56628pt x 19.57227pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 23.1723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 63.
+[5 <./imagenes/i_real_80-eps-converted-to.pdf> <./imagenes/i_imag_80-eps-conver
+ted-to.pdf> <./imagenes/i_mag_80-eps-converted-to.pdf> <./imagenes/i_fase_80-ep
+s-converted-to.pdf>])
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 37.
+ (./Secciones/5_resistencia.tex
+Package epstopdf Info: Source file: <imagenes/z.eps>
+(epstopdf)                    date: 2018-07-01 14:16:06
+(epstopdf)                    size: 27241 bytes
+(epstopdf)             Output file: <imagenes/z-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-07-01 16:24:24
+(epstopdf)                    size: 10022 bytes
+(epstopdf)             Command: <repstopdf --outfile=imagenes/z-eps-converted-t
+o.pdf imagenes/z.eps>
+(epstopdf)             \includegraphics on input line 3.
+Package epstopdf Info: Output file is already uptodate.
+<imagenes/z-eps-converted-to.pdf, id=174, 361.35pt x 303.1325pt>
+File: imagenes/z-eps-converted-to.pdf Graphic file (type pdf)
+<use imagenes/z-eps-converted-to.pdf>
+Package pdftex.def Info: imagenes/z-eps-converted-to.pdf  used on input line 3.
+
+(pdftex.def)             Requested size: 361.34912pt x 303.13176pt.
+)
+File: ./Figuras/header_fiuba.png Graphic file (type png)
+<use ./Figuras/header_fiuba.png>
+Package pdftex.def Info: ./Figuras/header_fiuba.png  used on input line 39.
+(pdftex.def)             Requested size: 58.56628pt x 19.57227pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 23.1723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 39.
+[6 <./imagenes/i_real_480-eps-converted-to.pdf> <./imagenes/i_imag_480-eps-conv
+erted-to.pdf> <./imagenes/i_mag_480-eps-converted-to.pdf> <./imagenes/i_fase_48
+0-eps-converted-to.pdf>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 39.
+ (./Secciones/6_eficiencia.tex)
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand >>
@@ -1917,8 +2550,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 41.
- (./Secciones/7_tierra.tex)
-<./Figuras/header_fiuba.png, id=74, 390.45876pt x 130.4875pt>
+
+(./Secciones/7_tierra.tex)
 File: ./Figuras/header_fiuba.png Graphic file (type png)
 <use ./Figuras/header_fiuba.png>
 Package pdftex.def Info: ./Figuras/header_fiuba.png  used on input line 44.
@@ -1954,12 +2587,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 44.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.44 	\section
-              {Conclusiones} [1 <./Figuras/header_fiuba.png>]
+[7 <./imagenes/z-eps-converted-to.pdf>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand >>
@@ -1972,8 +2600,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 44.
-
-(./Secciones/conclusiones.tex)
+ (./Secciones/conclusiones.tex)
 File: ./Figuras/header_fiuba.png Graphic file (type png)
 <use ./Figuras/header_fiuba.png>
 Package pdftex.def Info: ./Figuras/header_fiuba.png  used on input line 48.
@@ -2009,7 +2636,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 48.
-[2]
+[8]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
  (./main.aux
@@ -2020,33 +2647,42 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 245618CA3676B25C9286AACB38B0551B;614.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 40499 strings out of 492982
- 934663 string characters out of 6134896
- 1062282 words of memory out of 5000000
- 43399 multiletter control sequences out of 15000+600000
- 546613 words of font info for 85 fonts, out of 8000000 for 9000
+ 40654 strings out of 492982
+ 939148 string characters out of 6134896
+ 1068688 words of memory out of 5000000
+ 43529 multiletter control sequences out of 15000+600000
+ 546958 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,16n,96p,10472b,767s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,20n,96p,10472b,1289s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on main.pdf (4 pages, 158287 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt8.pfb>
+Output written on main.pdf (10 pages, 1695352 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
- 13 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 284 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 215 words of extra memory for PDF output out of 10000 (max. 10000000)
 
