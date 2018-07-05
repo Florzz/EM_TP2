@@ -1,0 +1,30 @@
+close all;
+separador = '\t';
+z_real = dlmread('z_real.txt', separador);
+z_imag = dlmread('z_imag.txt', separador);
+z_real_tierra = dlmread('z_real_tierra.txt', separador);
+z_imag_tierra = dlmread('z_imag_tierra.txt', separador);
+
+figure;
+plot(z_real(:,1), z_real(:,2)/1000);
+hold on;
+plot(z_imag(:,1), z_imag(:,2)/1000);
+xlim([80 480]);
+%ylim([-1e5 3e4]);
+grid on;
+legend('Parte real', 'Parte imaginaria');
+xlabel('Frecuencia [MHz]');
+ylabel('Impedancia [k\Omega]');
+saveas(gcf, 'z_espacio_libre', 'epsc');
+
+figure;
+plot(z_real_tierra(:,1), z_real_tierra(:,2)/1000);
+hold on;
+plot(z_imag_tierra(:,1), z_imag_tierra(:,2)/1000);
+xlim([80 480]);
+%ylim([-1e5 3e4]);
+grid on;
+legend('Parte real', 'Parte imaginaria');
+xlabel('Frecuencia [MHz]');
+ylabel('Impedancia [k\Omega]');
+saveas(gcf, 'z_tierra', 'epsc');
