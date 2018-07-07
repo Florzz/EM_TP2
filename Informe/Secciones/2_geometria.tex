@@ -6,6 +6,14 @@
 \end{figure}	
 
 
+La figura \ref{fig.config_z} muestra la configuración de radiadores asignada vista desde arriba (plano xy), la misma consiste en un conjunto de conductores formada por alambres, de los cuales sólo uno de ellos (de color rojo) es activo, es decir se encuentra conectado a una funete de tensión de \SI{1}{\volt}. Los cuatro conductores restantes son pasivos, pudiendo funcionar como directores o reflectores. El radio de todos los conductores es de \SI{5}{\milli\meter}.
+La longitud y distancias entre conductores están expresadas en términos de longitud de onda para la frecuencia más pequeña. El rango de fercuencias a analizar es $\SI{80}{\mega\hertz} < f < \SI{480}{\mega\hertz}$, por lo que se puede deducir el valor de una longitud de onda según la expresión \eqref{ec.long_onda}, sinedo $\rm{c}=\SI{3e8}{\meter\per\second}$ la velocidad de propagación de la onda en espacio libre.
+
+\begin{equation}
+	\centering
+	\lambda = \frac{\rm{c}}{\rm{f_{min}}} = \frac{ \SI{3e8}{\meter\per\second} } { \SI{80}{\mega\hertz} } = \SI{3.75}{\meter}
+	\label{ec.long_onda}
+\end{equation} 
 
 \begin{figure}[H]
 	\begin{subfigure}{0.5\textwidth}
@@ -20,3 +28,12 @@
 		\label{fig.geometria}
 	\end{subfigure}
 \end{figure}
+ 
+Por lo tanto la configuración en el plano xz con las medidas correspondientes se muestra en \ref{fig.config_xz}. La figura \ref{fig.geometria} muestra la geometría ingresada en el programa \textit{4nec2}, en espacio libre. El punto rosa en el conductor central indica la fuente (que es de \SI{1}{\volt}) y se ubicó en su posición central.   
+
+
+
+
+
+
+
