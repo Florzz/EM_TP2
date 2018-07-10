@@ -32,9 +32,9 @@ fase_2_480 = dlmread('480MHz_2_fase.txt', separador);
 
 %% 80MHz | Parte real de la corriente para conductor activo y pasivo
 figure;
-plot(real_1_80(:,1)*k1, real_1_80(:,2));
+plot(real_1_80(:,1)*k1, real_1_80(:,2)*1000);
 hold on;
-plot(real_2_80(:,1)*k1, real_2_80(:,2));
+plot(real_2_80(:,1)*k1, real_2_80(:,2)*1000);
 xlim([0 3.75]);
 xlabel('Longitud [m]');
 ylabel('Corriente [mA]');
@@ -45,9 +45,9 @@ saveas(gcf, 'i_real_80_tierra', 'epsc');
 
 %% 80MHz | Parte imaginaria de la corriente para conductor activo y pasivo
 figure;
-plot(imag_1_80(:,1)*k1, imag_1_80(:,2));
+plot(imag_1_80(:,1)*k1, imag_1_80(:,2)*1000);
 hold on;
-plot(imag_2_80(:,1)*k1, imag_2_80(:,2));
+plot(imag_2_80(:,1)*k1, imag_2_80(:,2)*1000);
 xlim([0 3.75]);
 xlabel('Longitud [m]');
 ylabel('Corriente [mA]');
@@ -59,9 +59,9 @@ saveas(gcf, 'i_imag_80_tierra', 'epsc');
 
 %% 80MHz | Magnitud de la corriente para conductor activo y pasivo
 figure;
-plot(mag_1_80(:,1)*k1, mag_1_80(:,2));
+plot(mag_1_80(:,1)*k1, mag_1_80(:,2)*1000);
 hold on;
-plot(mag_2_80(:,1)*k1, mag_2_80(:,2));
+plot(mag_2_80(:,1)*k1, mag_2_80(:,2)*1000);
 xlim([0 3.75]);
 xlabel('Longitud [m]');
 ylabel('Corriente [mA]');
@@ -113,7 +113,7 @@ grid on;
 saveas(gcf, 'i_imag_480_tierra', 'epsc');
 
 
-%% 80MHz | Magnitud de la corriente para conductor activo y pasivo
+%% 480MHz | Magnitud de la corriente para conductor activo y pasivo
 figure;
 plot(mag_1_480(:,1)*k2, mag_1_480(:,2));
 hold on;
@@ -127,7 +127,7 @@ grid on;
 saveas(gcf, 'i_mag_480_tierra', 'epsc');
 
 
-%% 80MHz | Fase de la corriente para conductor activo y pasivo
+%% 480MHz | Fase de la corriente para conductor activo y pasivo
 figure;
 plot(fase_1_480(:,1)*k2, fase_1_480(:,2));
 hold on;
