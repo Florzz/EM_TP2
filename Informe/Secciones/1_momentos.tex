@@ -1,0 +1,39 @@
+\begin{equation}
+	\centering
+	V_m = \sum_{n=1}^N Z_{nm} I_m
+\end{equation}
+
+\begin{equation}
+	\centering
+	V_m = -j\omega \epsilon \int_{C(\bold{r})} E^i (\bold{r}) f_m(\bold{r}) d\bold{r}
+\end{equation}	
+
+\begin{equation}
+	\centering
+	Z_{nm} = \int_{C(\bold{r})} \int_{C(\bold{r'})} f_n(\bold{r'})\left[ \left(\frac{\partial^2}{\partial{z^2}} + \beta ^2 \right) G(\bold{r},\bold{r'}) \right] f_m(\bold{r}) d\bold{r'} d\bold{r}
+\end{equation}
+
+
+El método de momentos de la radiación se basa en la implementación de la ecuación de Pocklington. Para analizar la radiación de antenas, se divide la estructura metálica en elementos radiantes. Uno de estos elementos se conecta a una fuente de energía que se modela como fuente de tensión concentrada $V_m$. A partir de la resolución de un sistema lineal se obtiene la corriente de cada elemento que compone la estructura para una determinada frecuencia. Una vez obtenida la ditribución de corriente, se calcula el potencial vectorial \eqref{ec.A} y los campos eléctricos \eqref{ec.E} y magnéticos \eqref{ec.E} raidados por la estructura.
+
+El software \textit{4nec2} permite resolver numéricamente las ecuaciones que describen la forma de la distribución de corriente ya sea proveniente de una fuente ó por inducción.
+
+\begin{equation}
+	\centering
+	\bold{A} = \frac{\mu}{4 \cdot \pi} \int_{C(\bold{r'})} I(\bold{r'}) \frac{ \exp{(-i\beta R)} }{R} \bold{\hat{I}} dl'
+	\label{ec.A}
+\end{equation}	
+
+\begin{equation}
+	\centering
+	\bold{E} = \frac{\nabla \times \bold{H} }{ j\omega\epsilon}
+	\label{ec.E}
+\end{equation}	
+
+\begin{equation}
+	\centering
+	\bold{H} = \frac{\nabla \times \bold{H}}{j\omega \epsilon}
+	\label{ec.H}
+\end{equation}
+
+	
