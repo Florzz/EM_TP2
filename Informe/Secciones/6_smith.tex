@@ -1,6 +1,6 @@
-La adaptación permite obtener una máxima eficiencia en la transmisión de energía, eliminando reflexiones de onda. Dentro de las posibles formas de adaptación, se optó por la utilización del adaptador de cuarto de onda y stub. La línea opera en un entorno de la mínima frecuencia, $\SI{72}{\mega\hertz} < f < \SI{88}{\mega\hertz}$, por lo que se considera el valor de carga de la expresión \eqref{ec.z_80}.
+La adaptación permite obtener una máxima eficiencia en la transmisión de energía, eliminando reflexiones de onda. Dentro de las posibles formas de adaptación, se optó por la utilización del adaptador de cuarto de onda y stub. La línea opera en un entorno de la mínima frecuencia, $\SI{72}{\mega\hertz} < f < \SI{88}{\mega\hertz}$ (se realiza el \emph{sweep} cada \SI{1}{\mega\hertz}), por lo que se considera el valor de carga de la expresión \eqref{ec.z_80}.
 
-A su vez se considera un criterio de $|\rho_l|<0,2$, ó de forma equivalente $\rm{ROE} \leq 1,5$
+A su vez se considera un criterio de $|\rho_l|<0,2$, o de forma equivalente $\rm{ROE} \leq 1,5$
 
 \subsection{Adaptador de cuarto de onda}
 El proceso consiste en intercalar el adaptador a una distancia $z_s$ de la carga $Z_L$, de forma tal que la impedancia de entrada $Z_{in}$ del conjunto línea y carga sea real. Para hallar el valor de $z_s$ se utiliza la carta de Smith mediante software. El adaptador queda definido mediante los parámetros $z_a$ (impedancia del adaptador) y $L_a$ (longitud del adaptador). La impedancia característica de la línea es dato, $Z_o = \SI{50}{\ohm}$. Ubicandose en $Z_L$, se desplaza hacia el generador sobre la circuinferencia $|\rho_L|$ hasta obtener impedancia real (eje real). Así se obtiene longitud de arco recorrido da la posición $z_s$ del adaptador. A partir de dicho valor y $Z_{in}$ se obtienen los parámetros de la línea \eqref{ec.z_a_4} y \eqref{ec.L_a_4}.
@@ -16,6 +16,7 @@ El proceso consiste en intercalar el adaptador a una distancia $z_s$ de la carga
 	L_a = \frac{\lambda_a}{4} = \frac{ \SI{3.75}{\meter} }{4} = \SI{0.937}{\meter}
 	\label{ec.L_a_4}
 \end{equation}
+
 
 %%%% FIGURA PARA CUARTO DE ONDA ESPACIO LIBRE
 \begin{figure}[H]
